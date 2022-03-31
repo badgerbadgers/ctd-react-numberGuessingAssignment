@@ -20,14 +20,14 @@ If you want to attempt this on your own without a step by step walkthrough first
 Click the arrow to expand this section and see step by step instructions to convert to function components with hooks.
 
 //Convert GuessControl
-[] Open the GuessControl.js file.
-[] Rename the current GuessControl class to GuessControlOld if you want to keep it a reference while converting the code.
-[] Create a new function component called GuessControl that will take an onGuess prop.
-[] Copy the return value from the render function in the class component to be the return value in the new function component. Remove any references to this. since those will be replaced with new references to local variables or props passed in to the function component.
-[] Create a new state variable named currentGuess with setter setCurrentGuess and default value of an empty string. Set the value property for the input element to refer to this state value. (Make sure to import useState)
-[] Create a handleInputChange function within the component that updates the currentGuess state value when the user changes the value in the input. Set the onChange property for the input element to refer to this function.
-[] Create a onSubmitGuess function that calls the onGuess prop with the currentGuess value converted to a number and also resets the currentGuess to an empty string when it is called. Set the onClick property on the button to refer to this function.
-[] If you still have the old class version around as GuessControlOld, delete it.
+[x] Open the GuessControl.js file.
+[x] Rename the current GuessControl class to GuessControlOld if you want to keep it a reference while converting the code.
+[x] Create a new function component called GuessControl that will take an onGuess prop.
+[x] Copy the return value from the render function in the class component to be the return value in the new function component. Remove any references to this. since those will be replaced with new references to local variables or props passed in to the function component.
+[x] Create a new state variable named currentGuess with setter setCurrentGuess and default value of an empty string. Set the value property for the input element to refer to this state value. (Make sure to import useState)
+[x] Create a handleInputChange function within the component that updates the currentGuess state value when the user changes the value in the input. Set the onChange property for the input element to refer to this function.
+[x] Create a onSubmitGuess function that calls the onGuess prop with the currentGuess value converted to a number and also resets the currentGuess to an empty string when it is called. Set the onClick property on the button to refer to this function.
+[x] If you still have the old class version around as GuessControlOld, delete it.
 
 //Convert NumberGuessingGame
  Open the NumberGuessingGame.js file.
